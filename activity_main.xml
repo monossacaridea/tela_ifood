@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
     <!--topo-->
 
     <LinearLayout
@@ -27,7 +26,7 @@
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/ifoodclube" />
+                android:src="@drawable/ifoodclube"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -62,7 +61,6 @@
             android:orientation="horizontal"
             android:padding="12dp">
 
-
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
@@ -89,6 +87,7 @@
                     android:text="Participe agora: seus pedidos iFood viram pontos na Decolar"
                     android:textColor="#666666"
                     android:textSize="12sp" />
+
             </LinearLayout>
 
 
@@ -139,9 +138,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="›"
-                android:textColor="#890000"
+                android:textColor="#8F8F8F"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:paddingStart="279dp"/>
 
         </LinearLayout>
 
@@ -173,6 +173,15 @@
                 android:text="Notificações"
                 android:textSize="14sp" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#8F8F8F"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingStart="265dp"/>
+
         </LinearLayout>
 
         <View
@@ -202,6 +211,15 @@
                 android:layout_height="wrap_content"
                 android:text="Dados da conta"
                 android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#8F8F8F"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingStart="247dp"/>
 
         </LinearLayout>
 
@@ -233,6 +251,15 @@
                 android:text="Pagamentos"
                 android:textSize="14sp" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#8F8F8F"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingStart="265dp"/>
+
         </LinearLayout>
 
         <View
@@ -262,6 +289,15 @@
                 android:layout_height="wrap_content"
                 android:text="Clube iFood"
                 android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#8F8F8F"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingStart="270dp"/>
 
         </LinearLayout>
 
@@ -293,6 +329,15 @@
                 android:text="Cupons"
                 android:textSize="14sp" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#8F8F8F"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingStart="296dp"/>
+
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -321,6 +366,15 @@
                 android:layout_height="wrap_content"
                 android:text="Código de entrega"
                 android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#8F8F8F"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingStart="229dp"/>
 
         </LinearLayout>
 
@@ -352,6 +406,15 @@
                 android:text="Comunidade iFood"
                 android:textSize="14sp" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#8F8F8F"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingStart="226dp"/>
+
         </LinearLayout>
 
         <View
@@ -382,6 +445,15 @@
                 android:text="Fidelidade"
                 android:textSize="14sp" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#8F8F8F"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingStart="279dp"/>
+
         </LinearLayout>
 
         <View
@@ -411,6 +483,16 @@
                 android:layout_height="wrap_content"
                 android:text="Favoritos"
                 android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#8F8F8F"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingStart="286dp"/>
+
         </LinearLayout>
 
     <View
@@ -424,44 +506,110 @@
         android:layout_height="0dp"
         android:layout_weight="1.5"
         android:orientation="horizontal"
-        android:gravity="top|center"
-        android:background="#FFFFFF">
+        android:background="#FFFFFF"
+        android:paddingTop="5dp">
 
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Início"
-            android:textSize="13dp"
-            />
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <TextView
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/inicio"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Início"
+                android:textSize="12dp"/>
+
+            </LinearLayout>
+
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Busca"
-            android:textSize="13dp"
-            android:layout_marginStart="35dp"/>
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <TextView
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/busca"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Busca"
+                android:textSize="12dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hits"
-            android:textSize="13dp"
-            android:layout_marginStart="35dp"/>
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <TextView
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/hits"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hits"
+                android:textSize="12dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pedidos"
-            android:textSize="13dp"
-            android:layout_marginStart="35dp"/>
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Perfil"
-            android:textSize="13dp"
-            android:layout_marginStart="35dp"/>
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/hits"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pedidos"
+                android:textSize="12dp"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/perfil"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perfil"
+                    android:textSize="12dp"/>
+
+            </LinearLayout>
 
     </LinearLayout>
 
