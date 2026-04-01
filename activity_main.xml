@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!--topo-->
+    <!--cima-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,37 +26,44 @@
                 android:layout_width="65dp"
                 android:layout_height="65dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/ifoodclube"/>
+                android:src="@drawable/ifoodclube" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Rafael"
-                android:textColor="#000000"
-                android:textSize="20sp"
-                android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rafael"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ver meu Clube  ›"
-                android:textColor="#A55ADA"
-                android:textSize="15sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ver meu Clube  ›"
+                    android:textColor="#A55ADA"
+                    android:textSize="15sp" />
 
             </LinearLayout>
 
         </LinearLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:layout_margin="16dp"
-            android:background="#EEEEEE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="24dp"
+            android:background="#eeeeee"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:padding="12dp">
@@ -85,11 +92,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Participe agora: seus pedidos iFood viram pontos na Decolar"
-                    android:textColor="#666666"
+                    android:textColor="#878787"
                     android:textSize="12sp" />
-
             </LinearLayout>
-
 
             <TextView
                 android:layout_width="wrap_content"
@@ -97,9 +102,13 @@
                 android:text="›"
                 android:textColor="#890000"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
-
+                android:textStyle="bold" />
         </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
 
     </LinearLayout>
 
@@ -132,7 +141,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Conversas"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:layout_marginEnd="258dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:textColor="#ffffff"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:background="#ff0000"
+                android:paddingHorizontal="5dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -141,7 +161,7 @@
                 android:textColor="#8F8F8F"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:paddingStart="279dp"/>
+                android:paddingStart="5dp"/>
 
         </LinearLayout>
 
@@ -171,7 +191,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Notificações"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:layout_marginEnd="244dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:textColor="#ffffff"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:background="#ff0000"
+                android:paddingHorizontal="5dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -180,7 +211,7 @@
                 android:textColor="#8F8F8F"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:paddingStart="265dp"/>
+                android:paddingStart="5dp"/>
 
         </LinearLayout>
 
@@ -526,7 +557,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Início"
-                android:textSize="12dp"/>
+                android:textSize="13sp"/>
 
             </LinearLayout>
 
@@ -547,7 +578,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Busca"
-                android:textSize="12dp"/>
+                android:textSize="13sp"/>
 
         </LinearLayout>
 
@@ -567,7 +598,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Hits"
-                android:textSize="12dp"/>
+                android:textSize="12sp"/>
 
         </LinearLayout>
 
@@ -587,7 +618,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Pedidos"
-                android:textSize="12dp"/>
+                android:textSize="12sp"/>
 
         </LinearLayout>
 
@@ -607,7 +638,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Perfil"
-                    android:textSize="12dp"/>
+                    android:textSize="12sp"/>
 
             </LinearLayout>
 
